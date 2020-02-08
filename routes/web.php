@@ -16,5 +16,6 @@ Route::get('/', function () {
 });
 
 Route::get('/info',function(){
+    echo "111";
     phpinfo();die;
 });
